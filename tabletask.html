@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Time Table</title>
+    <style>
+        table{
+            border-collapse: separate;
+            text-align : center ;
+        }
+        .ln{
+            writing-mode :vertical-lr ;
+            text-orientation :upright ;
+        }
+        .sl{
+            color :rgb(255, 0, 0) ;
+        }
+        .yl{
+            color : rgba(246, 0, 234, 0.87) ;
+        }
+        .nl{
+            color : rgba(81, 0, 255, 0.916) ;
+        }
+        .klu{
+            color : rgba(0, 255, 72, 0.874) ;
+        }
+        .kk{
+             color : rgba(199, 174, 33, 0.892) ;
+        }
+        .ml{
+            color : rgba(19, 163, 253, 0.938) ;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption> S-104 Class Time Table</caption>
+        <tr>
+            <th>Date/Day</th>
+            <th class ="ml">9:20 - 10:10</th>
+            <th class ="ml">10:10-11:00</th>
+            <th class ="ml">11:10-12:00</th>
+            <th class ="ml">12:00-12:50</th>
+            <th class ="ml">12:50-1:50</th>
+            <th class ="ml">1:50-2:30</th>
+            <th class ="ml">2:40-3:40</th> 
+            <th class ="ml">3:40-5:30</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>----</td>
+            <td class="sl">Sub 1</td>
+            <td class="yl">Sub 2</td>
+            <td class="nl">Sub 3</td> 
+            <td rowspan="6"  class="ln"> Lunch </td>                      
+            <td class="klu">Sub 4</td>
+            <td class="kk">Sub 5</td>
+            <td> Councelling</td>
+        </tr>
+         <tr>
+            <td>Tuesday</td>
+            <td> Sub0</td>
+            <td class="sl">Sub 1</td>
+            <td class="yl">Sub 2</td>
+            <td class="nl">----</td>                       
+            <td class="klu">Sub 4</td>
+            <td class="kk">Sub 5</td>
+            <td> Library</td>
+        </tr>
+         <tr>
+            <td>Wednesday</td>
+            <td>Sub 0</td>
+            <td class="sl">Sub 1</td>
+            <td class="yl">Sub 2</td>
+            <td class="nl">Sub 3</td>                       
+            <td colspan="3"> Lab </td>
+        </tr>
+         <tr>
+            <td>Thursday</td>
+            <td>----</td>
+            <td class="sl">Sub 1</td>
+            <td class="yl">Sub 2</td>
+            <td class="nl">Sub 3</td>                       
+            <td>----</td>
+            <td class="klu">Sub 5</td>
+            <td class="kk"> Councelling</td>
+        </tr>
+         <tr>
+            <td>Friday</td>
+            <td>----</td>
+            <td class="sl">Sub 1</td>
+            <td class="yl">Sub 2</td>
+            <td class="nl">----</td>                       
+            <td>Sub 4</td>
+            <td class="klu">Sub 5</td>
+            <td class="kk"> Councelling</td>
+        </tr>
+         <tr>
+            <td>Saturday</td>
+            <td class="sl">Sub 1</td>
+            <td colspan ="3">Seminar</td>                      
+            <td class="nl">Sub 4</td>
+            <td class="klu">Sub 5</td>
+            <td class="kk"> Councelling</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

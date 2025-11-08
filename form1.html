@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Student Registration </title>
+</head>
+<body>
+    <h2>Student Registartion form </h2>
+    <form action="https://newerp.kluniversity.in">
+         <h3> Personal Information</h3>
+          <label for ="fn"> FULL NAME :</label><input type="text"  id="fn" required > <br> <br> <br> 
+         Gender : <input type="radio" name="gn" value ="m" > MEN
+       <input type="radio"  name="gn" value ="F" > FEMALE <br> <br> 
+      <label for= "email" > Email:</label> <input type="email" >  <br> <br> <br> 
+     <label for ="con"> Contact :</label><input type="te" pattern = [0-9]{10} > <br>  <br> <br> 
+       Date of birth :<input type="date" > <br>  <br> <br> 
+        Address :<textarea>      </textarea>
+        <h3> Acadamic details </h3>
+        BRANCH:
+        <select>
+            <option value ="---SELECT----">----select---</option>
+            <option value="CSE"> CSE</option>
+            <option value="ECE"> ECE</option>
+            <option value="CIVIL"> CIVIL</option>
+            <option value="EEE"> EEE</option>
+        </select> <br> <br> 
+        Language Known : <input type="checkbox" name="cb" value ="tel" > Telugu
+        <input type="checkbox" name="cb" value="Hin" > Hindi
+        <input type="checkbox"  name="cb" value="Eng"> English
+        <input type="checkbox"  name="cb" value="Japan" > Japanese <br> <br> <br> 
+        Upload Resume :
+        <input type="file" >  <br> <br> <br> 
+        <input type="Submit" >
+</form>
+</body>
+</html>
